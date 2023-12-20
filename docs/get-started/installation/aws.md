@@ -161,8 +161,8 @@ dns:
   provider:
     aws:
       credentials:
-        secretKey: $ACCESS_KEY_ID
-        accessKey: $ACCESS_KEY_SECRET
+        secretKey: $ACCESS_KEY_SECRET
+        accessKey: $ACCESS_KEY_ID
       region: eu-central-1 # your region
 apps:
   cert-manager:
